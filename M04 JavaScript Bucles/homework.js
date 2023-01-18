@@ -4,7 +4,18 @@ function obtenerMayor(x, y) {
    // "x" e "y" son números enteros.
    // Retornar el número más grande.
    // Si son iguales, retornar cualquiera de los dos.
-   // Tu código:
+   // Tu código:   *EN REVISION DE SINTAXIS Y ASIGNACION DE VARIABLES
+   //var (x) 
+   //var (y) 
+   for (x == y)
+   {
+   if (x > y)
+      return x;
+   else
+      return y ;
+   }
+   for (x = y)
+      return 'El valor de las variables es igual [ 'var (x)'  ]';
 }
 
 function mayoriaDeEdad(edad) {
@@ -12,15 +23,24 @@ function mayoriaDeEdad(edad) {
    // Si tiene 18 años ó más debe retornar el string: "Allowed".
    // Caso contrario: "Not allowed".
    // Tu código:
+   var (x) = 
+   if (x >= 18)
+   console.log (' "Allowed"  ')
+   else {
+      console.log (' "Not allowed" ');
+      break;
+       //  if var (x) = NaN   -Revisar si este comando es válido
+      
 }
 
-function conection(status) {
+function connection(status) {
    // El argumento "status" representa el estado de conexión de un usuario.
    // Si el estado es igual a 1, el usuario está "Online".
    // Si el estado es igual a 2, el usuario está "Away".
    // De lo contrario, presumimos que el usuario está "Offline".
    // Retornar el estado de conexión del usuario.
    // Tu código:
+   set string ['status']
 }
 
 function saludo(idioma) {
